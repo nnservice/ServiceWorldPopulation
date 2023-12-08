@@ -1,0 +1,12 @@
+#' Attendance information for every World Cup.
+#'
+#' @format a data frame with 22 observations of 4 variables
+#' \describe{
+#'   \item{Matches}{Number of soccer matches}
+#'   \item{Totalattendance}{total number of attendees across all matches}
+#'   \item{Averageattendance}{average number of attendees per match}
+#'   \item{WorldCup}{Country name and world cup year without spaces formatted
+#'   as a factor}
+#' }
+#' @source  \url{https://en.wikipedia.org/wiki/FIFA_World_Cup#Attendance}
+"World_Cup"
